@@ -19,8 +19,8 @@ idft_cnt = 0
 while t < 60:
     #a choose from [0, 1] randomly
     a = [0]*pn
-#    for i in range(0, pn):
-#        a[i] = random.random()
+    for i in range(0, pn):
+        a[i] = random.random()
     s_real = [0]*pn
     s_unreal = [0]*pn
     curtime = time.time()
